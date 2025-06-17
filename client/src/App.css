@@ -1,0 +1,27 @@
+.app-wrapper {
+  display:flex;
+  flex-direction: column;
+  height: 100vh;
+  overflow: hidden;
+  background-color: BLUE;
+}
+
+.app-nav {
+  display:flex;
+  gap: 1rem;
+  padding: 0.8rem 1.5rem;
+  background-color: white;
+  border-bottom: 1px solid #ccc;
+}
+
+.app-nav a {
+  text-decoration: none;
+  color: #007bff;
+  font-weight: bold;
+  font-size: 1rem;
+}
+
+.app-content {
+  flex: 1;
+  overflow: auto;
+}
